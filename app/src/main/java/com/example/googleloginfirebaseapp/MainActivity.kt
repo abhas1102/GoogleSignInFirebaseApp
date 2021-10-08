@@ -67,9 +67,10 @@ class MainActivity : AppCompatActivity() {
                 model: ItemDataModel
             ) {
                 Glide.with(holder.itemView).load(model.shopImageUrl).into(holder.binding1.image)
-                holder.binding1.discountRangeText.text = model.discountRange
+                holder.binding1.discountRangeValue.text = model.discountRange
                 holder.binding1.offersCountText.text = model.totalOfferedItem
                 holder.binding1.shopName.text = model.shopName
+                holder.binding1.validTill.text = model.validTill
             }
 
         }

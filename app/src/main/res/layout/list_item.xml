@@ -40,6 +40,7 @@
                     android:src="@drawable/levis" />
 
                 <TextView
+                    android:id="@+id/valid_till"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:layout_alignEnd="@id/image"
@@ -104,6 +105,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/discount_range_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/offers_count_text"
